@@ -11,7 +11,11 @@ Finally, we generate a new dataset with all the average measures for each subjec
 
 Variables
 
-x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+x_train,
+y_train, 
+x_test, 
+y_test, 
+subject_train and subject_test contain the data from the downloaded files.
 x_data, y_data and subject_data merge the previous datasets to further analysis.
 features contains the correct names for the x_data dataset, which are applied to the column names stored in mean_and_std_features, a numeric vector used to extract the desired data.
 A similar approach is taken with activity names through the activities variable.
@@ -26,90 +30,173 @@ activity - The type of activity performed when the corresponding measurements we
 Measurements
 
 tBodyAccMeanX
+
 tBodyAccMeanY
+
 tBodyAccMeanZ
+
 tBodyAccStdX
+
 tBodyAccStdY
+
 tBodyAccStdZ
+
 tGravityAccMeanX
+
 tGravityAccMeanY
+
 tGravityAccMeanZ
+
 tGravityAccStdX
+
 tGravityAccStdY
+
 tGravityAccStdZ
+
 tBodyAccJerkMeanX
+
 tBodyAccJerkMeanY
+
 tBodyAccJerkMeanZ
+
 tBodyAccJerkStdX
+
 tBodyAccJerkStdY
+
 tBodyAccJerkStdZ
+
 tBodyGyroMeanX
+
 tBodyGyroMeanY
+
 tBodyGyroMeanZ
+
 tBodyGyroStdX
+
 tBodyGyroStdY
+
 tBodyGyroStdZ
+
 tBodyGyroJerkMeanX
+
 tBodyGyroJerkMeanY
+
 tBodyGyroJerkMeanZ
+
 tBodyGyroJerkStdX
+
 tBodyGyroJerkStdY
+
 tBodyGyroJerkStdZ
+
 tBodyAccMagMean
+
 tBodyAccMagStd
+
 tGravityAccMagMean
+
 tGravityAccMagStd
+
 tBodyAccJerkMagMean
+
 tBodyAccJerkMagStd
+
 tBodyGyroMagMean
+
 tBodyGyroMagStd
+
 tBodyGyroJerkMagMean
+
 tBodyGyroJerkMagStd
+
 fBodyAccMeanX
+
 fBodyAccMeanY
+
 fBodyAccMeanZ
+
 fBodyAccStdX
+
 fBodyAccStdY
+
 fBodyAccStdZ
+
 fBodyAccMeanFreqX
+
 fBodyAccMeanFreqY
+
 fBodyAccMeanFreqZ
+
 fBodyAccJerkMeanX
+
 fBodyAccJerkMeanY
+
 fBodyAccJerkMeanZ
+
 fBodyAccJerkStdX
+
 fBodyAccJerkStdY
+
 fBodyAccJerkStdZ
+
 fBodyAccJerkMeanFreqX
+
 fBodyAccJerkMeanFreqY
+
 fBodyAccJerkMeanFreqZ
+
 fBodyGyroMeanX
+
 fBodyGyroMeanY
+
 fBodyGyroMeanZ
+
 fBodyGyroStdX
+
 fBodyGyroStdY
+
 fBodyGyroStdZ
+
 fBodyGyroMeanFreqX
+
 fBodyGyroMeanFreqY
+
 fBodyGyroMeanFreqZ
+
 fBodyAccMagMean
+
 fBodyAccMagStd
+
 fBodyAccMagMeanFreq
+
 fBodyBodyAccJerkMagMean
+
 fBodyBodyAccJerkMagStd
+
 fBodyBodyAccJerkMagMeanFreq
+
 fBodyBodyGyroMagMean
+
 fBodyBodyGyroMagStd
+
 fBodyBodyGyroMagMeanFreq
+
 fBodyBodyGyroJerkMagMean
+
 fBodyBodyGyroJerkMagStd
+
 fBodyBodyGyroJerkMagMeanFreq
 
 Activity Labels
 
 WALKING (value 1): subject was walking during the test
+
 WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+
 WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+
 SITTING (value 4): subject was sitting during the test
+
 STANDING (value 5): subject was standing during the test
+
 LAYING (value 6): subject was laying down during the test
